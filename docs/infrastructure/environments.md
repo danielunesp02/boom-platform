@@ -1,0 +1,5 @@
+# Environments
+
+- Local
+- Development
+- Production
