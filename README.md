@@ -1,15 +1,19 @@
-# Boom Configurable Learning Documentation Pack
+# Boom API-First Onboarding Documentation Pack
 
-This pack documents the first major business/product idea captured after the initial infrastructure and backend validation.
+This pack documents the product and architecture decision to make Boom's administrative interfaces thin, componentized and API-first.
 
-Theme:
+Main themes:
 
-- Flexible learning methodology
-- Student-specific goals
-- Admin-controlled freedom
-- Configurable subject availability
-- Gamification
-- Avatar/RPG-style engagement
+- API-first administration
+- Template-based bulk onboarding
+- Downloadable import templates
+- Upload and validation pipeline
+- External integration readiness
+- Signup based on primary identity document
+- Email and phone verification
+- PIN-based account activation
+- Componentized admin UI
+- Prioritized backlog and sprint proposal
 
 Recommended repository:
 
@@ -21,6 +25,6 @@ Suggested commit:
 
 ```bash
 git add docs/
-git commit -m "docs: add configurable learning and gamification model"
+git commit -m "docs: add API-first onboarding epics and prioritized backlog"
 git push
 ```
