@@ -1,34 +1,26 @@
-# Boom
+# Boom Configurable Learning Documentation Pack
 
-## Overview
+This pack documents the first major business/product idea captured after the initial infrastructure and backend validation.
 
-Boom is an AI-powered adaptive learning platform designed to support students throughout their academic journey.
+Theme:
 
-The platform combines adaptive learning, learning analytics, artificial intelligence, and international curricula to provide a world-class personalized learning experience.
+- Flexible learning methodology
+- Student-specific goals
+- Admin-controlled freedom
+- Configurable subject availability
+- Gamification
+- Avatar/RPG-style engagement
 
-## Vision
+Recommended repository:
 
-Create the most complete AI-assisted learning platform for students, parents and educators.
+```text
+boom-platform
+```
 
-## Core Principles
+Suggested commit:
 
-- AI First
-- Adaptive Learning
-- Data Driven
-- Cloud Native
-- Multi-Tenant
-- Security by Design
-
-## Technology Stack
-
-- Java 21
-- Spring Boot
-- PostgreSQL
-- Docker
-- Terraform
-- GitHub Actions
-- OpenAI API
-
-## Documentation
-
-See the `docs/` directory.
+```bash
+git add docs/
+git commit -m "docs: add configurable learning and gamification model"
+git push
+```
