@@ -1,19 +1,14 @@
-# Boom API-First Onboarding Documentation Pack
+# Boom Learning History, Action Plan and Parent Dashboard Documentation Pack
 
-This pack documents the product and architecture decision to make Boom's administrative interfaces thin, componentized and API-first.
+This pack documents the business, technical and testing refinement for:
 
-Main themes:
-
-- API-first administration
-- Template-based bulk onboarding
-- Downloadable import templates
-- Upload and validation pipeline
-- External integration readiness
-- Signup based on primary identity document
-- Email and phone verification
-- PIN-based account activation
-- Componentized admin UI
-- Prioritized backlog and sprint proposal
+- Learning history
+- Detailed learning evidence
+- Gap tracking by subject/topic/skill
+- Action plan after each learning delivery
+- Parent/guardian dashboard
+- React Web first strategy
+- High-quality BDD/Gherkin test scenarios
 
 Recommended repository:
 
@@ -24,7 +19,35 @@ boom-platform
 Suggested commit:
 
 ```bash
-git add docs/
-git commit -m "docs: add API-first onboarding epics and prioritized backlog"
+git add docs tests
+git commit -m "docs: add learning history dashboard and BDD refinement"
 git push
+```
+
+## Contents
+
+```text
+docs/product/epics/
+docs/product/stories/
+docs/domain/
+docs/architecture/
+docs/adr/
+docs/quality/
+docs/roadmap/
+tests/bdd/features/
+```
+
+## Testing Philosophy
+
+This pack does not try to maximize the number of tests.
+
+The goal is to define a small set of high-value scenarios that protect the most important business and architectural invariants:
+
+- learning history must never be lost;
+- attempts and answers must be immutable after completion;
+- gaps must be traceable by topic/skill/objective;
+- practice time must be measurable against a gap;
+- every delivery must generate an outcome summary;
+- action plans must be tied to evidence;
+- parent dashboards must be read-only and scoped to the guardian relationship.
 ```
